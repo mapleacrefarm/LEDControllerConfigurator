@@ -80,9 +80,9 @@ function setup() {
   exportButton.style('display', 'block');
   
   let div1 = createDiv('config.h <br />');
-  let div2 = createDiv('Layout JSON <br />');
+  //let div2 = createDiv('Layout JSON <br />');
   div1.style('display', 'table-cell');
-  div2.style('display', 'table-cell');
+  //div2.style('display', 'table-cell');
 
   exportTextArea = createElement('textArea');
   exportTextArea.elt.cols = 80;
@@ -90,11 +90,11 @@ function setup() {
   exportTextArea.elt.readOnly = true;
   exportTextArea.parent(div1);
   
-  exportLayoutTextArea = createElement('textArea');
+  /*exportLayoutTextArea = createElement('textArea');
   exportLayoutTextArea.elt.cols = 65;
   exportLayoutTextArea.elt.rows = 18;
   exportLayoutTextArea.elt.readOnly = true;
-  exportLayoutTextArea.parent(div2);
+  exportLayoutTextArea.parent(div2); */
 
   // noLoop();
 }
